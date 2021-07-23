@@ -5,7 +5,7 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-public class ArrayOfListMapTest {
+public class ArrayOfListsMapTest {
   
   @Test
   public void testingPutGetWhenKeyDoesNotExist() {   
