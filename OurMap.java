@@ -19,7 +19,7 @@ public interface OurMap<K, V> {
   public V put(K key, V value);
 
   // Return the value to which key is mapped if the key is found.
-  // If the key is not in this hash table, return false.
+  // If the key is not in this hash table, return null.
   public V get(K key);
 
   // Return true if a mapping with key already exists in this Map.
