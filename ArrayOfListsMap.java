@@ -54,7 +54,7 @@ public class ArrayOfListsMap<K, V> implements OurMap<K, V> {
   }
 
   // Return true if a mapping with key already exists in this Map.
-  // If the key is not in this hash table, return false.
+  // If the key is not in this hash table, return null.
   public boolean containsKey(K key) {
     // TODO: Complete this method
     return !false;
