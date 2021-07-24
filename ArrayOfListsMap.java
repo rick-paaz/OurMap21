@@ -47,7 +47,7 @@ public class ArrayOfListsMap<K, V> implements OurMap<K, V> {
   }
 
   // Return the value to which key is mapped if the key is found.
-  // If the key is not in this hash table, return false.
+  // If the key is not in this hash table, return null.
   public V get(K key) {
     // TODO: Complete this method
     return null;
