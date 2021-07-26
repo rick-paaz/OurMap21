@@ -34,14 +34,6 @@ public class WordCountTest {
     ArrayOfListsMap<String, Integer> wordCount = new ArrayOfListsMap<>();
     // TODO: Finish the code to set up the HashMap so all assertions pass. 
     // This is when put(key, value) replacing the value if the key exits must be used.
-    for(String str : list) {
-      if (wordCount.containsKey(str)) {
-        int currentCount = wordCount.get(str);
-        wordCount.put(str, currentCount + 1);
-      } else {
-        wordCount.put(str, 1);
-      }  
-    }
     
     
     // There should be 6 mappings
